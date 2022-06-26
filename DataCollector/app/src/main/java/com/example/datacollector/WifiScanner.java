@@ -7,7 +7,7 @@ import android.content.IntentFilter;
 import android.net.wifi.ScanResult;
 import android.net.wifi.WifiManager;
 
-import com.crashlytics.android.Crashlytics;
+//import com.crashlytics.android.Crashlytics;
 import com.instacart.library.truetime.TrueTime;
 
 import java.io.File;
@@ -76,7 +76,8 @@ class WifiScanner extends BroadcastReceiver {
                 if (!isScanning){
                     boolean isStarted = wifiManager.startScan();
                     if (!isStarted) {
-                        Crashlytics.log("Something with scanning went wrong \n Start scan is : "+isStarted);
+
+//                        Crashlytics.log("Something with scanning went wrong \n Start scan is : "+isStarted);
                     }
                     isScanning = true;
                 }

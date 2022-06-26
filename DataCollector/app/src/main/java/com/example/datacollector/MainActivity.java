@@ -35,10 +35,10 @@ import android.widget.TextView;
 import android.widget.Toast;
 import android.widget.ToggleButton;
 
-import com.crashlytics.android.Crashlytics;
+//import com.crashlytics.android.Crashlytics;
 import com.instacart.library.truetime.TrueTime;
 
-import io.fabric.sdk.android.Fabric;
+//import io.fabric.sdk.android.Fabric;
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
